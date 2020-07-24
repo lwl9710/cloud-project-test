@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 @RequestMapping("/test")
 @RestController
 public class TestController {
-    private final static String TEST_PROVIDER_PREFIX="http://EUREKA_PROVIDER_6611";
+    private final static String TEST_PROVIDER_PREFIX="http://EUREKA-PROVIDER-6611";
 
     @Resource
     private RestTemplate restTemplate;

@@ -2,7 +2,7 @@ server:
   port: 6611
 spring:
   application:
-    name: EUREKA_PROVIDER_6611
+    name: EUREKA-PROVIDER-6611
 eureka:
   instance:
     hostname: ${spring.cloud.client.ip-address}

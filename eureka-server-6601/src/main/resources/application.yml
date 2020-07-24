@@ -2,7 +2,7 @@ server:
   port: 6601
 spring:
   application:
-    name: EUREKA_SERVER_6601
+    name: EUREKA-SERVER-6601
 eureka:
   instance:
     instance-id: ${spring.cloud.client.ip-address}

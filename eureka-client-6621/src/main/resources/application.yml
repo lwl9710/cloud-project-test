@@ -2,7 +2,7 @@ server:
   port: 6621
 spring:
   application:
-    name: EUREKA_CLIENT_6621
+    name: EUREKA-CLIENT-6621
 
 eureka:
   instance:
