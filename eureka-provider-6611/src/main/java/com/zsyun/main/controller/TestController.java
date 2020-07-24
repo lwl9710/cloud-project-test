@@ -14,6 +14,6 @@ public class TestController {
     @GetMapping("")
     public String index() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:ss:mm");
-        return "["+ simpleDateFormat.format(new Date()) +"]>>>>>>Hello world!!!";
+        return "["+ simpleDateFormat.format(new Date()) +"]>>>>>>测试部署";
     }
 }
