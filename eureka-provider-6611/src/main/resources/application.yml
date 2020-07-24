@@ -1,0 +1,15 @@
+server:
+  port: 6611
+spring:
+  application:
+    name: EUREKA_PROVIDER_6611
+eureka:
+  instance:
+    hostname: ${spring.cloud.client.ip-address}
+    instance-id: ${eureka.instance.hostname}:${server.port}
+    prefer-ip-address: true
+  client:
+    fetch-registry: false
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://127.0.0.1:6601/eureka
